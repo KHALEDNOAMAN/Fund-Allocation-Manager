@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# ðŸ¦ Fund Allocation Manager
+# 🏦 Fund Allocation Manager
 
 **Budget Allocation System with Multi-Level Approvals & Fund Transfers**
 
@@ -16,26 +16,17 @@ A fund allocation and budget management system with multi-level approval workflo
 
 ---
 
-## âœ¨ Features
+## ✨ Features
 
-- ðŸ¦ **Fund Management** - Create and manage funds with types, budgets, and balance tracking
-- ðŸ“ **Allocation Requests** - Submit requests with priority levels (Low/Medium/High/Critical)
-- âœ… **Multi-Level Approval** - Department head â†’ Finance manager â†’ CEO approval chain
-- ðŸ”„ **Fund Transfers** - Transfer money between funds with audit trail
-- ðŸ“Š **Budget Variance** - Budget vs actual analysis with utilization percentages
-- ðŸ’° **Real-Time Balances** - Available balance updates on every allocation/transfer
-- ðŸ“ˆ **Cash Flow Projections** - Forward-looking fund utilization forecasting
+- 🏦 **Fund Management** - Create and manage funds with types, budgets, and balance tracking
+- 📝 **Allocation Requests** - Submit requests with priority levels (Low/Medium/High/Critical)
+- ✅ **Multi-Level Approval** - Department head → Finance manager → CEO approval chain
+- 🔄 **Fund Transfers** - Transfer money between funds with audit trail
+- 📊 **Budget Variance** - Budget vs actual analysis with utilization percentages
+- 💰 **Real-Time Balances** - Available balance updates on every allocation/transfer
+- 📈 **Cash Flow Projections** - Forward-looking fund utilization forecasting
 
-## ðŸ—ï¸ Architecture
-
-```
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”     â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”     â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚ React Frontendâ”‚â”€â”€â”€â”€â–¶â”‚ Express.js API   â”‚â”€â”€â”€â”€â–¶â”‚ PostgreSQL   â”‚
-â”‚ (Dashboard)   â”‚     â”‚ (JWT + Approval) â”‚     â”‚ (3 tables)   â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜     â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜     â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
-```
-
-## ðŸ“¡ API Endpoints
+## 📡 API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -49,7 +40,7 @@ A fund allocation and budget management system with multi-level approval workflo
 | PUT | `/api/transfers/:id/approve` | Approve transfer |
 | GET | `/api/reports/variance` | Budget variance report |
 
-## ðŸš€ Getting Started
+## 🚀 Getting Started
 
 ```bash
 git clone https://github.com/KHALEDNOAMAN/Fund-Allocation-Manager.git
@@ -59,8 +50,8 @@ npx knex migrate:latest && npx knex seed:run
 npm run dev
 ```
 
-## ðŸ“ License
+## 📝 License
 MIT License - see [LICENSE](LICENSE) file.
 
 ---
-<div align="center">Built with â¤ï¸ during internship at EduTech Yazilim A.S. - Istanbul, Turkey</div>
+<div align="center">Built with ❤️ during internship at EduTech Yazilim A.S. - Istanbul, Turkey</div>
